@@ -1,0 +1,119 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+header {font family: 'Alex Brush', 'Brush Scipt MT', cursive;
+  font size: 60px;
+  line-height: 1;
+  color:#b70c0c;
+  padding-top: ; 
+  min-height: 175px;
+
+
+}
+
+h1 {font-family: 'Alex Brush', 'Brush Script MT', cursive;
+  font-size: 70px;
+  line-height: 1;
+  color: #b70c0c;
+  font-weight: bolder;
+  text-align: left;
+}
+
+h2 {font-family: 'Alex Brush', 'Brush Script MT', cursive;
+  font-size: 55px;
+  line-height: 1;
+  color: #034f20;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+h3 {font-family: 'Alex Brush', 'Brush Script MT', cursive;
+  font-size: 35px;
+  line-height: 1;
+  color: #034f20;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+body {
+  font-family: 'Signika', 'Merriweather Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  padding: 25px;
+  margin: 10px;
+  background-color: #fffcef;
+  color: forestgreen;
+  text-align: left;
+}
+
+.container {
+  width: 65%
+  margin: auto;
+  overflow; hidden;
+}
+header a {
+  color:  #c30f0f;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: right;
+  display: inline;
+  padding: 0 20px 0 20px;
+
+}
+
+
+/* Create three equal columns that sit next to each other */
+.column {
+  float: left;
+  flex: 50%;
+  width: 45%;
+  padding: 10px;
+  column-count: 2;
+  column-gap: 10px;
+  column-rule-style: none;
+  column-rule-width: 1px;
+  column-span: all;
+  column-width: 100px;
+  column-fill: auto;
+} 
+
+/* Clear floats after the columns */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: height= "250";
+  grid-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #fffcef;
+  padding: 10px;
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  img {
+      height: "250"
+      width: "250"
+      object-fit: cover;
+
+  }
+ 
+  
